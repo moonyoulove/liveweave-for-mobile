@@ -18,5 +18,5 @@
     var p = t.parentElement;
     p.style.cssText = "margin-top:10px;"
     t.style.cssText = "position: absolute;padding: 0px;width: 25px;height: 25px;outline: medium none currentcolor;z-index: 2147483647;top: 45px;";
-    $(p).append("<button onclick=\"eval('CodeMirror.commands.selectAll(htmlEditor);');\">sA</button>");
+    $(p).append("<div onclick='CodeMirror.commands.selectAll(htmlEditor)' style='background: white;width: 25px;height: 25px;color: gray;text-align: center;line-height: 25px;border: solid 1px gray;'>sA</div>");
 })();
