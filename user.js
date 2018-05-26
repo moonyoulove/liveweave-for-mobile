@@ -16,7 +16,7 @@
     $("#fullscreen-html-toggle").click();
     var t = htmlEditor.getInputField();
     var p = t.parentElement;
-    p.style.cssText = "position: static;"
+    p.style.cssText = "overflow: hidden;position: static;width: 3px;height: 0px;margin-top:5px;"
     t.style.cssText = "position: absolute;padding: 0px;width: 25px;height: 25px;outline: medium none currentcolor;z-index: 2147483647;top: 45px;";
     $(p).append("<button onclick=\"htmlEditor.execCommand('selectAll');\">sA</button>");
 })();
