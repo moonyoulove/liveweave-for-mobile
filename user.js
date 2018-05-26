@@ -18,5 +18,5 @@
     var p = t.parentElement;
     p.style.cssText = "position: static;"
     t.style.cssText = "position: absolute;padding: 0px;width: 25px;height: 25px;outline: medium none currentcolor;z-index: 2147483647;top: 45px;";
-    $(p).append("<div onclick=\"htmlEditor.execCommand('sA');\">s</div>");
+    $(p).append("<button onclick=\"htmlEditor.execCommand('selectAll');\">sA</button>");
 })();
